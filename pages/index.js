@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home () {
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -10,9 +10,7 @@ export default function Home () {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-                    Coming Soon
-        </h1>
+        <a href='mailto:junmindereal@gmail.com'>junmindereal@gmail.com</a>
       </main>
     </div>
   )
